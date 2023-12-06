@@ -1,0 +1,27 @@
+#!/bin/bash
+
+source $1
+
+while read -r line; do
+    case $line in
+    WS*)
+        ws="  ${line:2}  %{F-}"
+        ;;
+    NOC*)
+        noc="%{F$c2} ${line:3}%{F-}"
+        ;;
+    VOL*)
+        vol="%{F$afg}%{B$aaabg}  ${line:3}  %{F-B-}"
+        ;;
+    BAT*)
+        bat="%{F$afg}%{B$aabg}  ${line:3}  %{F-B-}"
+        ;;
+    DAT*)
+        dat="%{F$afg}%{B$abg}   ${line:3}   %{F-B-}"
+        ;;
+    esac
+
+    lpad="%{B$abg}  %{B-}"
+
+    echo -e "%{l}$lpad$ws$noc%{r}$vol$bat$dat"
+done
