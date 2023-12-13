@@ -1,0 +1,35 @@
+! colors
+*.background:	#5a5475
+*.foreground:	#f8f8f2
+
+*.color0:	#b29cc8
+*.color8:	#b29cc8
+
+*.color1:	#ffb7d1 
+*.color9:	#ffb7d1
+
+*.color2:	#c0ffde 
+*.color10:	#c0ffde
+
+*.color3:	#ffee99 
+*.color11:	#ffee99
+
+*.color4:	#b29cc8
+*.color12:	#b29cc8
+                       
+*.color5:	#ffb7d1
+*.color13:	#ffb7d1
+                       
+*.color6:	#c0ffde
+*.color14:	#c0ffde
+                       
+*.color7:	#ffee99
+*.color15:	#ffee99
+
+! custom colors
+*.color17:	#b29cc8
+
+
+
+
+

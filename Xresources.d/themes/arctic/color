@@ -1,0 +1,35 @@
+! colors
+*.background:	#ffffff
+*.foreground:	#8d8d9d
+
+*.color0:	#c2c8d5
+*.color8:	#c2c8d5
+
+*.color1:	#bec0c9
+*.color9:	#bec0c9
+
+*.color2:	#c2cce5
+*.color10:	#c2cce5
+
+*.color3:	#a7aab3
+*.color11:	#a7aab3
+
+*.color4:	#c2c8d5
+*.color12:	#c2c8d5
+                       
+*.color5:	#bec0c9
+*.color13:	#bec0c9
+                       
+*.color6:	#c2cce5
+*.color14:	#c2cce5
+                       
+*.color7:	#a7aab3
+*.color15:	#a7aab3
+
+! custom colors
+*.color16:  #ffffff
+*.color17:  #c2cce5
+*.color18:  #c2c8d5
+
+
+

@@ -1,0 +1,27 @@
+! #include ".Xresources.d/themes/witch/color"
+#include ".Xresources.d/themes/arctic/color"
+
+! font
+*.font:	azukifontB:size=14:weight=bold
+
+!! urxvt
+URxvt.font:	xft:azukifontB:size=14:weight=regular, \
+            xft:Inconsolata Nerd Font Mono:size=14
+
+URxvt.geometry: 96x32
+URxvt.scrollBar: false
+URxvt.scrollBar_right: true
+URxvt.cursorUnderline: true
+URxvt.cursorBlink: true
+URxvt.urgentOnBell: false
+URxvt.saveLines: 4096
+URxvt.internalBorder: 40
+! URxvt.fading: 0
+! URxvt.letterSpace: 0
+! URxvt.lineSpace: 0
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+
+URxvt.keysym.Control-Shift-C: eval:selection_to_clipboard
+URxvt.keysym.Control-Shift-V: eval:paste_clipboard
+
